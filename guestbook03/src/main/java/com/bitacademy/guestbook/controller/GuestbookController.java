@@ -1,4 +1,4 @@
-package com.douzone.guestbook.controller;
+package com.bitacademy.guestbook.controller;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.douzone.guestbook.repository.GuestbookRepository;
-import com.douzone.guestbook.vo.GuestbookVo;
+import com.bitacademy.guestbook.repository.GuestbookRepository;
+import com.bitacademy.guestbook.vo.GuestbookVo;
 
 @Controller
 public class GuestbookController {
